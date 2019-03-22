@@ -1,9 +1,15 @@
 import React from 'react'
 import reactDOM from 'react-dom'
+import LoginPage from './login-page'
 class EntryPoint extends React.Component{
     render(){
         return (
-            <div className='text-center'>FIRST TEST</div>
+            <div
+                style = {{border:'solid black 1px'}}
+                className='text-right'
+            >
+                <LoginPage/>
+            </div>
         )
     }
 }
